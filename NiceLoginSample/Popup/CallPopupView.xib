@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="8.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CallPopupViewController">
+            <connections>
+                <outlet property="bodyview" destination="7IE-8t-vu5" id="on9-gZ-hyR"/>
+                <outlet property="btnOutletCall" destination="JTp-sI-D1R" id="osY-9X-1IE"/>
+                <outlet property="btnOutletClose" destination="ap3-Yg-aTs" id="dwh-4o-Mf2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Zhh-qP-D6j"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDC-RN-4mD">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7IE-8t-vu5">
+                    <rect key="frame" x="45" y="295" width="324" height="174"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTp-sI-D1R">
+                            <rect key="frame" x="214" y="122" width="80" height="45"/>
+                            <color key="backgroundColor" red="0.0" green="0.3294117647" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="42P-9L-fYs"/>
+                                <constraint firstAttribute="width" constant="80" id="AEM-0R-ktJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="바로 연결">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnHotline:" destination="-1" eventType="touchUpInside" id="RTp-XF-XKA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ap3-Yg-aTs">
+                            <rect key="frame" x="30" y="122" width="80" height="45"/>
+                            <color key="backgroundColor" red="0.0" green="0.32941176470588235" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="5Vb-dy-A6z"/>
+                                <constraint firstAttribute="height" constant="45" id="YZ5-j1-YpP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="나중에">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClose:" destination="-1" eventType="touchUpInside" id="wGr-zO-w2N"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warningicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Izn-Se-Ih4">
+                            <rect key="frame" x="100" y="10" width="124" height="44"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일치하는 정보를 찾을 수 없습니다." textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPx-oz-Mti">
+                            <rect key="frame" x="0.0" y="69" width="324" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="담당자에게 연결해 드리겠습니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeD-tF-El9">
+                            <rect key="frame" x="0.0" y="91" width="324" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="GPx-oz-Mti" firstAttribute="leading" secondItem="7IE-8t-vu5" secondAttribute="leading" id="1Ew-wD-cdd"/>
+                        <constraint firstItem="ap3-Yg-aTs" firstAttribute="top" secondItem="TeD-tF-El9" secondAttribute="bottom" constant="10" id="6vs-oC-ocQ"/>
+                        <constraint firstItem="TeD-tF-El9" firstAttribute="leading" secondItem="7IE-8t-vu5" secondAttribute="leading" id="GxV-wO-ZFK"/>
+                        <constraint firstAttribute="trailing" secondItem="Izn-Se-Ih4" secondAttribute="trailing" constant="100" id="HUR-Xz-ItM"/>
+                        <constraint firstAttribute="trailing" secondItem="GPx-oz-Mti" secondAttribute="trailing" id="IRO-RT-YEA"/>
+                        <constraint firstItem="Izn-Se-Ih4" firstAttribute="top" secondItem="7IE-8t-vu5" secondAttribute="top" constant="10" id="IaP-xY-uuT"/>
+                        <constraint firstAttribute="height" constant="174" id="KjZ-CJ-XND"/>
+                        <constraint firstItem="TeD-tF-El9" firstAttribute="top" secondItem="GPx-oz-Mti" secondAttribute="bottom" constant="1" id="MCT-Rh-EO7"/>
+                        <constraint firstItem="ap3-Yg-aTs" firstAttribute="leading" secondItem="7IE-8t-vu5" secondAttribute="leading" constant="30" id="PVe-3D-do9"/>
+                        <constraint firstItem="GPx-oz-Mti" firstAttribute="top" secondItem="Izn-Se-Ih4" secondAttribute="bottom" constant="15" id="PVp-aj-UVz"/>
+                        <constraint firstAttribute="bottom" secondItem="Izn-Se-Ih4" secondAttribute="bottom" constant="120" id="bad-Jh-5Ho"/>
+                        <constraint firstAttribute="trailing" secondItem="TeD-tF-El9" secondAttribute="trailing" id="cbC-Fx-1t8"/>
+                        <constraint firstItem="Izn-Se-Ih4" firstAttribute="leading" secondItem="7IE-8t-vu5" secondAttribute="leading" constant="100" id="hVF-dT-5nb"/>
+                        <constraint firstItem="JTp-sI-D1R" firstAttribute="top" secondItem="TeD-tF-El9" secondAttribute="bottom" constant="10" id="ld9-lQ-hdt"/>
+                        <constraint firstAttribute="trailing" secondItem="JTp-sI-D1R" secondAttribute="trailing" constant="30" id="ue0-Gz-ZqN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uDC-RN-4mD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3X4-wv-o8W"/>
+                <constraint firstAttribute="trailing" secondItem="7IE-8t-vu5" secondAttribute="trailing" constant="45" id="AbR-wA-kcK"/>
+                <constraint firstItem="7IE-8t-vu5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="45" id="O5n-kl-ac1"/>
+                <constraint firstItem="uDC-RN-4mD" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="OwM-WZ-Jv9"/>
+                <constraint firstItem="uDC-RN-4mD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SLY-wf-HFS"/>
+                <constraint firstItem="7IE-8t-vu5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="295" id="kFW-6V-HkF"/>
+                <constraint firstItem="uDC-RN-4mD" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="leP-Uo-lbl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="25" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="warningicon.png" width="600" height="550"/>
+    </resources>
+</document>

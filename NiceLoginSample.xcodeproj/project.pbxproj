@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44237326203BFCF200B0359B /* Loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 44237325203BFCF200B0359B /* Loading.png */; };
+		4423732C203C3EB500B0359B /* CallPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423732B203C3EB500B0359B /* CallPopupViewController.m */; };
+		44237336203C43A600B0359B /* CallPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44237335203C43A500B0359B /* CallPopupView.xib */; };
+		44237338203C4C8000B0359B /* warningicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44237337203C4C8000B0359B /* warningicon.png */; };
+		44279A19200C865A002A2FDC /* SettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44279A17200C865A002A2FDC /* SettingManager.m */; };
+		44279A1C200C86FA002A2FDC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44279A1B200C86FA002A2FDC /* WebViewController.m */; };
+		443F70EC20393EC500C73ED6 /* SubWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F70EB20393EC500C73ED6 /* SubWebViewController.m */; };
+		446D443A203D15930088B3B1 /* MsgPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446D4439203D15930088B3B1 /* MsgPopupView.xib */; };
+		446D443D203D16A00088B3B1 /* MsgPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D443C203D16A00088B3B1 /* MsgPopupViewController.m */; };
+		446D4440203ED7C30088B3B1 /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D443F203ED7C20088B3B1 /* HttpManager.m */; };
+		446D4442203EDA300088B3B1 /* TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D4441203EDA300088B3B1 /* TaskManager.m */; };
+		446D4445203FAD150088B3B1 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D4444203FAD150088B3B1 /* DataManager.m */; };
+		44BDAA9C2029456700534CAE /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BDAA992029456700534CAE /* X.png */; };
+		44BDAA9D2029456700534CAE /* icon_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BDAA9A2029456700534CAE /* icon_02.png */; };
+		44BDAA9E2029456700534CAE /* icon_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BDAA9B2029456700534CAE /* icon_01.png */; };
+		44BDAAA32029469800534CAE /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44BDAAA02029469800534CAE /* PopupView.xib */; };
+		44BDAAA42029469800534CAE /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BDAAA12029469800534CAE /* PopupViewController.m */; };
+		44BDAAAE20295F6000534CAE /* ImagePickerAlbumListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BDAAA720295F6000534CAE /* ImagePickerAlbumListViewCell.m */; };
+		44BDAAAF20295F6000534CAE /* ImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BDAAA920295F6000534CAE /* ImagePickerController.m */; };
+		44BDAAB020295F6000534CAE /* ImagePickerGridHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BDAAAB20295F6000534CAE /* ImagePickerGridHeaderView.m */; };
+		44BDAAB120295F6000534CAE /* ImagePickerGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BDAAAD20295F6000534CAE /* ImagePickerGridViewCell.m */; };
+		44C8828D203A63F100A00462 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8828C203A63F100A00462 /* KeychainItemWrapper.m */; };
+		44C88291203BA6F800A00462 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C88290203BA6F800A00462 /* IntroViewController.m */; };
+		44C88293203BA7BC00A00462 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C88292203BA7BC00A00462 /* splash.jpg */; };
+		44FD983F20185BD90062F7F6 /* Login_1080x1920.png in Resources */ = {isa = PBXBuildFile; fileRef = 44FD983E20185BD90062F7F6 /* Login_1080x1920.png */; };
+		44FF6E1C2005E50C008AA83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF6E1B2005E50C008AA83E /* AppDelegate.m */; };
+		44FF6E1F2005E50C008AA83E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF6E1E2005E50C008AA83E /* ViewController.m */; };
+		44FF6E222005E50C008AA83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FF6E202005E50C008AA83E /* Main.storyboard */; };
+		44FF6E242005E50C008AA83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FF6E232005E50C008AA83E /* Assets.xcassets */; };
+		44FF6E272005E50C008AA83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FF6E252005E50C008AA83E /* LaunchScreen.storyboard */; };
+		44FF6E2A2005E50C008AA83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FF6E292005E50C008AA83E /* main.m */; };
+		44FF6E342005FCF3008AA83E /* bi.png in Resources */ = {isa = PBXBuildFile; fileRef = 44FF6E332005FCF3008AA83E /* bi.png */; };
+		62F2022426502844856D0BB6 /* libPods-NiceLoginSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45DB4D0B8DD6F35E52B804D /* libPods-NiceLoginSample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44237325203BFCF200B0359B /* Loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loading.png; sourceTree = "<group>"; };
+		4423732A203C3EB500B0359B /* CallPopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallPopupViewController.h; sourceTree = "<group>"; };
+		4423732B203C3EB500B0359B /* CallPopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallPopupViewController.m; sourceTree = "<group>"; };
+		44237335203C43A500B0359B /* CallPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CallPopupView.xib; path = NiceLoginSample/Popup/CallPopupView.xib; sourceTree = SOURCE_ROOT; };
+		44237337203C4C8000B0359B /* warningicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warningicon.png; sourceTree = "<group>"; };
+		44279A17200C865A002A2FDC /* SettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingManager.m; sourceTree = "<group>"; };
+		44279A18200C865A002A2FDC /* SettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingManager.h; sourceTree = "<group>"; };
+		44279A1A200C86FA002A2FDC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		44279A1B200C86FA002A2FDC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		443F70EA20393EC500C73ED6 /* SubWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWebViewController.h; sourceTree = "<group>"; };
+		443F70EB20393EC500C73ED6 /* SubWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWebViewController.m; sourceTree = "<group>"; };
+		446D4439203D15930088B3B1 /* MsgPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MsgPopupView.xib; path = NiceLoginSample/Popup/MsgPopupView.xib; sourceTree = SOURCE_ROOT; };
+		446D443B203D16A00088B3B1 /* MsgPopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MsgPopupViewController.h; path = NiceLoginSample/Popup/MsgPopupViewController.h; sourceTree = SOURCE_ROOT; };
+		446D443C203D16A00088B3B1 /* MsgPopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MsgPopupViewController.m; path = NiceLoginSample/Popup/MsgPopupViewController.m; sourceTree = SOURCE_ROOT; };
+		446D443E203ED7A70088B3B1 /* HttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		446D443F203ED7C20088B3B1 /* HttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		446D4441203EDA300088B3B1 /* TaskManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
+		446D4443203EDACD0088B3B1 /* TaskManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
+		446D4444203FAD150088B3B1 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		446D4446203FAD2C0088B3B1 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		44BDAA992029456700534CAE /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		44BDAA9A2029456700534CAE /* icon_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_02.png; sourceTree = "<group>"; };
+		44BDAA9B2029456700534CAE /* icon_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_01.png; sourceTree = "<group>"; };
+		44BDAAA02029469800534CAE /* PopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopupView.xib; path = NiceLoginSample/Popup/PopupView.xib; sourceTree = SOURCE_ROOT; };
+		44BDAAA12029469800534CAE /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopupViewController.m; path = NiceLoginSample/Popup/PopupViewController.m; sourceTree = SOURCE_ROOT; };
+		44BDAAA22029469800534CAE /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopupViewController.h; path = NiceLoginSample/Popup/PopupViewController.h; sourceTree = SOURCE_ROOT; };
+		44BDAAA620295F6000534CAE /* ImagePickerAlbumListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerAlbumListViewCell.h; sourceTree = "<group>"; };
+		44BDAAA720295F6000534CAE /* ImagePickerAlbumListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerAlbumListViewCell.m; sourceTree = "<group>"; };
+		44BDAAA820295F6000534CAE /* ImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerController.h; sourceTree = "<group>"; };
+		44BDAAA920295F6000534CAE /* ImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerController.m; sourceTree = "<group>"; };
+		44BDAAAA20295F6000534CAE /* ImagePickerGridHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerGridHeaderView.h; sourceTree = "<group>"; };
+		44BDAAAB20295F6000534CAE /* ImagePickerGridHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerGridHeaderView.m; sourceTree = "<group>"; };
+		44BDAAAC20295F6000534CAE /* ImagePickerGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerGridViewCell.h; sourceTree = "<group>"; };
+		44BDAAAD20295F6000534CAE /* ImagePickerGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerGridViewCell.m; sourceTree = "<group>"; };
+		44C8828B203A63F100A00462 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		44C8828C203A63F100A00462 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		44C8828F203BA6F800A00462 /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		44C88290203BA6F800A00462 /* IntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		44C88292203BA7BC00A00462 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		44FD983E20185BD90062F7F6 /* Login_1080x1920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login_1080x1920.png; sourceTree = "<group>"; };
+		44FF6E172005E50C008AA83E /* NiceLoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceLoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FF6E1A2005E50C008AA83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44FF6E1B2005E50C008AA83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44FF6E1D2005E50C008AA83E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44FF6E1E2005E50C008AA83E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44FF6E212005E50C008AA83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44FF6E232005E50C008AA83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44FF6E262005E50C008AA83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44FF6E282005E50C008AA83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FF6E292005E50C008AA83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44FF6E332005FCF3008AA83E /* bi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bi.png; sourceTree = "<group>"; };
+		D53B1881334B1D9997287D36 /* Pods-NiceLoginSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceLoginSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-NiceLoginSample/Pods-NiceLoginSample.release.xcconfig"; sourceTree = "<group>"; };
+		E45DB4D0B8DD6F35E52B804D /* libPods-NiceLoginSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NiceLoginSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49130DBC096C226B30A3870 /* Pods-NiceLoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceLoginSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NiceLoginSample/Pods-NiceLoginSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FF6E142005E50C008AA83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F2022426502844856D0BB6 /* libPods-NiceLoginSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44237320203BDA2100B0359B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44237324203BDAD100B0359B /* SubWeb */,
+				44237323203BDAC100B0359B /* MainWeb */,
+				44237322203BDAB700B0359B /* Login */,
+				44BDAA9F2029463400534CAE /* Popup */,
+				44C8828E203BA6C800A00462 /* Intro */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		44237321203BDA9400B0359B /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				44C8828B203A63F100A00462 /* KeychainItemWrapper.h */,
+				44C8828C203A63F100A00462 /* KeychainItemWrapper.m */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		44237322203BDAB700B0359B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				44FF6E1D2005E50C008AA83E /* ViewController.h */,
+				44FF6E1E2005E50C008AA83E /* ViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		44237323203BDAC100B0359B /* MainWeb */ = {
+			isa = PBXGroup;
+			children = (
+				44279A1A200C86FA002A2FDC /* WebViewController.h */,
+				44279A1B200C86FA002A2FDC /* WebViewController.m */,
+			);
+			path = MainWeb;
+			sourceTree = "<group>";
+		};
+		44237324203BDAD100B0359B /* SubWeb */ = {
+			isa = PBXGroup;
+			children = (
+				443F70EA20393EC500C73ED6 /* SubWebViewController.h */,
+				443F70EB20393EC500C73ED6 /* SubWebViewController.m */,
+			);
+			path = SubWeb;
+			sourceTree = "<group>";
+		};
+		44279A16200C8631002A2FDC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				44279A18200C865A002A2FDC /* SettingManager.h */,
+				44279A17200C865A002A2FDC /* SettingManager.m */,
+				446D443E203ED7A70088B3B1 /* HttpManager.h */,
+				446D443F203ED7C20088B3B1 /* HttpManager.m */,
+				446D4441203EDA300088B3B1 /* TaskManager.m */,
+				446D4443203EDACD0088B3B1 /* TaskManager.h */,
+				446D4444203FAD150088B3B1 /* DataManager.m */,
+				446D4446203FAD2C0088B3B1 /* DataManager.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		44BDAA9F2029463400534CAE /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				446D4439203D15930088B3B1 /* MsgPopupView.xib */,
+				44237335203C43A500B0359B /* CallPopupView.xib */,
+				44BDAAA02029469800534CAE /* PopupView.xib */,
+				44BDAAA22029469800534CAE /* PopupViewController.h */,
+				44BDAAA12029469800534CAE /* PopupViewController.m */,
+				4423732A203C3EB500B0359B /* CallPopupViewController.h */,
+				4423732B203C3EB500B0359B /* CallPopupViewController.m */,
+				446D443B203D16A00088B3B1 /* MsgPopupViewController.h */,
+				446D443C203D16A00088B3B1 /* MsgPopupViewController.m */,
+			);
+			name = Popup;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		44BDAAA520295F6000534CAE /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				44BDAAA620295F6000534CAE /* ImagePickerAlbumListViewCell.h */,
+				44BDAAA720295F6000534CAE /* ImagePickerAlbumListViewCell.m */,
+				44BDAAA820295F6000534CAE /* ImagePickerController.h */,
+				44BDAAA920295F6000534CAE /* ImagePickerController.m */,
+				44BDAAAA20295F6000534CAE /* ImagePickerGridHeaderView.h */,
+				44BDAAAB20295F6000534CAE /* ImagePickerGridHeaderView.m */,
+				44BDAAAC20295F6000534CAE /* ImagePickerGridViewCell.h */,
+				44BDAAAD20295F6000534CAE /* ImagePickerGridViewCell.m */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		44C8828E203BA6C800A00462 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				44C8828F203BA6F800A00462 /* IntroViewController.h */,
+				44C88290203BA6F800A00462 /* IntroViewController.m */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		44FF6E0E2005E50C008AA83E = {
+			isa = PBXGroup;
+			children = (
+				44FF6E302005E638008AA83E /* Resource */,
+				44FF6E192005E50C008AA83E /* NiceLoginSample */,
+				44FF6E182005E50C008AA83E /* Products */,
+				D686A3E5B32C9E4FD827FB72 /* Pods */,
+				4F7C96B3B01BCE5ADBE0D163 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44FF6E182005E50C008AA83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44FF6E172005E50C008AA83E /* NiceLoginSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44FF6E192005E50C008AA83E /* NiceLoginSample */ = {
+			isa = PBXGroup;
+			children = (
+				44237321203BDA9400B0359B /* KeychainWrapper */,
+				44BDAAA520295F6000534CAE /* ImagePicker */,
+				44237320203BDA2100B0359B /* ViewController */,
+				44279A16200C8631002A2FDC /* Util */,
+				44FF6E1A2005E50C008AA83E /* AppDelegate.h */,
+				44FF6E1B2005E50C008AA83E /* AppDelegate.m */,
+				44FF6E202005E50C008AA83E /* Main.storyboard */,
+				44FF6E232005E50C008AA83E /* Assets.xcassets */,
+				44FF6E252005E50C008AA83E /* LaunchScreen.storyboard */,
+				44FF6E282005E50C008AA83E /* Info.plist */,
+				44FF6E292005E50C008AA83E /* main.m */,
+			);
+			path = NiceLoginSample;
+			sourceTree = "<group>";
+		};
+		44FF6E302005E638008AA83E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				44237337203C4C8000B0359B /* warningicon.png */,
+				44237325203BFCF200B0359B /* Loading.png */,
+				44C88292203BA7BC00A00462 /* splash.jpg */,
+				44BDAA9B2029456700534CAE /* icon_01.png */,
+				44BDAA9A2029456700534CAE /* icon_02.png */,
+				44BDAA992029456700534CAE /* X.png */,
+				44FD983E20185BD90062F7F6 /* Login_1080x1920.png */,
+				44FF6E332005FCF3008AA83E /* bi.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4F7C96B3B01BCE5ADBE0D163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45DB4D0B8DD6F35E52B804D /* libPods-NiceLoginSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D686A3E5B32C9E4FD827FB72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F49130DBC096C226B30A3870 /* Pods-NiceLoginSample.debug.xcconfig */,
+				D53B1881334B1D9997287D36 /* Pods-NiceLoginSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44FF6E162005E50C008AA83E /* NiceLoginSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FF6E2D2005E50C008AA83E /* Build configuration list for PBXNativeTarget "NiceLoginSample" */;
+			buildPhases = (
+				27E2A856BB0BA7B832616E8F /* [CP] Check Pods Manifest.lock */,
+				44FF6E132005E50C008AA83E /* Sources */,
+				44FF6E142005E50C008AA83E /* Frameworks */,
+				44FF6E152005E50C008AA83E /* Resources */,
+				1D1D1F1C7496E6F64EE5113B /* [CP] Embed Pods Frameworks */,
+				0902D4673C0B18123552C723 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceLoginSample;
+			productName = NiceLoginSample;
+			productReference = 44FF6E172005E50C008AA83E /* NiceLoginSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44FF6E0F2005E50C008AA83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = myname;
+				TargetAttributes = {
+					44FF6E162005E50C008AA83E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 44FF6E122005E50C008AA83E /* Build configuration list for PBXProject "NiceLoginSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44FF6E0E2005E50C008AA83E;
+			productRefGroup = 44FF6E182005E50C008AA83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44FF6E162005E50C008AA83E /* NiceLoginSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44FF6E152005E50C008AA83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BDAA9D2029456700534CAE /* icon_02.png in Resources */,
+				44FF6E342005FCF3008AA83E /* bi.png in Resources */,
+				44FF6E272005E50C008AA83E /* LaunchScreen.storyboard in Resources */,
+				446D443A203D15930088B3B1 /* MsgPopupView.xib in Resources */,
+				44FF6E242005E50C008AA83E /* Assets.xcassets in Resources */,
+				44BDAA9C2029456700534CAE /* X.png in Resources */,
+				44237336203C43A600B0359B /* CallPopupView.xib in Resources */,
+				44FF6E222005E50C008AA83E /* Main.storyboard in Resources */,
+				44BDAAA32029469800534CAE /* PopupView.xib in Resources */,
+				44237338203C4C8000B0359B /* warningicon.png in Resources */,
+				44237326203BFCF200B0359B /* Loading.png in Resources */,
+				44C88293203BA7BC00A00462 /* splash.jpg in Resources */,
+				44BDAA9E2029456700534CAE /* icon_01.png in Resources */,
+				44FD983F20185BD90062F7F6 /* Login_1080x1920.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0902D4673C0B18123552C723 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NiceLoginSample/Pods-NiceLoginSample-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NiceLoginSample/Pods-NiceLoginSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D1D1F1C7496E6F64EE5113B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NiceLoginSample/Pods-NiceLoginSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27E2A856BB0BA7B832616E8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceLoginSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44FF6E132005E50C008AA83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4423732C203C3EB500B0359B /* CallPopupViewController.m in Sources */,
+				44BDAAAE20295F6000534CAE /* ImagePickerAlbumListViewCell.m in Sources */,
+				44279A19200C865A002A2FDC /* SettingManager.m in Sources */,
+				446D4440203ED7C30088B3B1 /* HttpManager.m in Sources */,
+				44BDAAB020295F6000534CAE /* ImagePickerGridHeaderView.m in Sources */,
+				44279A1C200C86FA002A2FDC /* WebViewController.m in Sources */,
+				44FF6E1F2005E50C008AA83E /* ViewController.m in Sources */,
+				446D4445203FAD150088B3B1 /* DataManager.m in Sources */,
+				446D443D203D16A00088B3B1 /* MsgPopupViewController.m in Sources */,
+				44FF6E2A2005E50C008AA83E /* main.m in Sources */,
+				44FF6E1C2005E50C008AA83E /* AppDelegate.m in Sources */,
+				44BDAAA42029469800534CAE /* PopupViewController.m in Sources */,
+				44C8828D203A63F100A00462 /* KeychainItemWrapper.m in Sources */,
+				44C88291203BA6F800A00462 /* IntroViewController.m in Sources */,
+				443F70EC20393EC500C73ED6 /* SubWebViewController.m in Sources */,
+				446D4442203EDA300088B3B1 /* TaskManager.m in Sources */,
+				44BDAAB120295F6000534CAE /* ImagePickerGridViewCell.m in Sources */,
+				44BDAAAF20295F6000534CAE /* ImagePickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44FF6E202005E50C008AA83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FF6E212005E50C008AA83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44FF6E252005E50C008AA83E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FF6E262005E50C008AA83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44FF6E2B2005E50C008AA83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44FF6E2C2005E50C008AA83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44FF6E2E2005E50C008AA83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49130DBC096C226B30A3870 /* Pods-NiceLoginSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q7TABXP3C;
+				INFOPLIST_FILE = NiceLoginSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.NiceLoginSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		44FF6E2F2005E50C008AA83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53B1881334B1D9997287D36 /* Pods-NiceLoginSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q7TABXP3C;
+				INFOPLIST_FILE = NiceLoginSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.NiceLoginSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44FF6E122005E50C008AA83E /* Build configuration list for PBXProject "NiceLoginSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FF6E2B2005E50C008AA83E /* Debug */,
+				44FF6E2C2005E50C008AA83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FF6E2D2005E50C008AA83E /* Build configuration list for PBXNativeTarget "NiceLoginSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FF6E2E2005E50C008AA83E /* Debug */,
+				44FF6E2F2005E50C008AA83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44FF6E0F2005E50C008AA83E /* Project object */;
+}
