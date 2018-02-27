@@ -8,7 +8,7 @@
  설정 매니저
  */
 @interface SettingManager : NSObject
-dd
+
 @property (nonatomic, strong) NSString *protocalDomain;             // 프로토콜 도메인
 @property (nonatomic, strong) NSString *mainDomain;                 // 메인 도메인
 @property (nonatomic, strong) NSString *stateLogout;                // 로그아웃 상태
